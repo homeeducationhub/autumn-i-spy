@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEH Autumn I-Spy</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="game">
+
+    <header class="game-header">
+      <div class="heh">HOME EDUCATION HUB</div>
+
+      <h1>🍂 Autumn I-Spy 🍂</h1>
+
+      <p>
+        Move the spy glass around and find all the hidden autumn objects!
+      </p>
+    </header>
+
+    <div class="progress">
+      <strong>Objects found:</strong>
+      <span id="score">0</span> / 12
+    </div>
+
+<div id="game-board">
+
+  <div class="hidden-world">
+
+    <div class="hidden-object" data-object="pumpkin" style="left:12%; top:20%;">🎃</div>
+<div class="hidden-object" data-object="leaf" style="left:72%; top:18%;">🍁</div>
+<div class="hidden-object" data-object="squirrel" style="left:42%; top:30%;">🐿️</div>
+<div class="hidden-object" data-object="umbrella" style="left:82%; top:48%;">☂️</div>
+
+<div class="hidden-object" data-object="wellies" style="left:20%; top:55%;">🥾</div>
+<div class="hidden-object" data-object="corn" style="left:58%; top:60%;">🌽</div>
+<div class="hidden-object" data-object="hedgehog" style="left:35%; top:75%;">🦔</div>
+<div class="hidden-object" data-object="apple" style="left:78%; top:78%;">🍎</div>
+
+<div class="hidden-object" data-object="mushroom" style="left:8%; top:82%;">🍄</div>
+<div class="hidden-object" data-object="sunflower" style="left:88%; top:28%;">🌻</div>
+<div class="hidden-object" data-object="acorn" style="left:52%; top:15%;">🌰</div>
+<div class="hidden-object" data-object="hot-chocolate" style="left:60%; top:82%;">☕</div>
+
+  </div>
+
+  <div id="liquid"></div>
+
+  <div id="spyglass"></div>
+
+  <div class="instructions">
+    🔍 Move around to explore
+  </div>
+<div id="win-screen">
+
+  <div class="win-box">
+
+    <div class="win-stars">⭐ 🍂 ⭐</div>
+
+    <h2>You found them all!</h2>
+
+    <p>
+      Amazing exploring! You found all 12 hidden autumn objects.
+    </p>
+
+    <div class="win-badge">
+      🏆
+    </div>
+
+    <strong>Autumn I-Spy Explorer</strong>
+
+    <button id="play-again">
+      PLAY AGAIN
+    </button>
+
+  </div>
+
+</div>
+</div>
+
+    <section class="find-section">
+
+      <h2>Can you find them all?</h2>
+
+      <div class="object-list">
+
+       <div class="find-item" data-object="pumpkin">🎃 <span>Pumpkin</span></div>
+<div class="find-item" data-object="leaf">🍁 <span>Leaf</span></div>
+<div class="find-item" data-object="squirrel">🐿️ <span>Squirrel</span></div>
+<div class="find-item" data-object="umbrella">☂️ <span>Umbrella</span></div>
+
+<div class="find-item" data-object="wellies">🥾 <span>Wellies</span></div>
+<div class="find-item" data-object="corn">🌽 <span>Corn</span></div>
+<div class="find-item" data-object="hedgehog">🦔 <span>Hedgehog</span></div>
+<div class="find-item" data-object="apple">🍎 <span>Apple</span></div>
+
+<div class="find-item" data-object="mushroom">🍄 <span>Mushroom</span></div>
+<div class="find-item" data-object="sunflower">🌻 <span>Sunflower</span></div>
+<div class="find-item" data-object="acorn">🌰 <span>Acorn</span></div>
+<div class="find-item" data-object="hot-chocolate">☕ <span>Hot Chocolate</span></div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
